@@ -1,7 +1,7 @@
 # Redis client for Go
 
-[![build workflow](https://github.com/redis/go-redis/actions/workflows/build.yml/badge.svg)](https://github.com/redis/go-redis/actions)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/redis/go-redis/v9)](https://pkg.go.dev/github.com/redis/go-redis/v9?tab=doc)
+[![build workflow](https://github.com/DovudR/go-redis/actions/workflows/build.yml/badge.svg)](https://github.com/DovudR/go-redis/actions)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/DovudR/go-redis/v9)](https://pkg.go.dev/github.com/DovudR/go-redis/v9?tab=doc)
 [![Documentation](https://img.shields.io/badge/redis-documentation-informational)](https://redis.uptrace.dev/)
 [![Chat](https://discordapp.com/api/guilds/752070105847955518/widget.png)](https://discord.gg/rWtp5Aj)
 
@@ -10,7 +10,7 @@
 > use it to monitor applications and set up automatic alerts to receive notifications via email,
 > Slack, Telegram, and others.
 >
-> See [OpenTelemetry](https://github.com/redis/go-redis/tree/master/example/otel) example which
+> See [OpenTelemetry](https://github.com/DovudR/go-redis/tree/master/example/otel) example which
 > demonstrates how you can use Uptrace to monitor go-redis.
 
 ## How do I Redis?
@@ -34,10 +34,10 @@
 
 ## Resources
 
-- [Discussions](https://github.com/redis/go-redis/discussions)
+- [Discussions](https://github.com/DovudR/go-redis/discussions)
 - [Chat](https://discord.gg/rWtp5Aj)
-- [Reference](https://pkg.go.dev/github.com/redis/go-redis/v9)
-- [Examples](https://pkg.go.dev/github.com/redis/go-redis/v9#pkg-examples)
+- [Reference](https://pkg.go.dev/github.com/DovudR/go-redis/v9)
+- [Examples](https://pkg.go.dev/github.com/DovudR/go-redis/v9#pkg-examples)
 
 ## Ecosystem
 
@@ -75,7 +75,7 @@ go mod init github.com/my/repo
 Then install go-redis/**v9**:
 
 ```shell
-go get github.com/redis/go-redis/v9
+go get github.com/DovudR/go-redis/v9
 ```
 
 ## Quickstart
@@ -85,7 +85,7 @@ import (
     "context"
     "fmt"
 
-    "github.com/redis/go-redis/v9"
+    "github.com/DovudR/go-redis/v9"
 )
 
 var ctx = context.Background()
@@ -143,7 +143,7 @@ to this specification.
 
 ```go
 import (
-    "github.com/redis/go-redis/v9"
+    "github.com/DovudR/go-redis/v9"
 )
 
 func ExampleClient() *redis.Client {
@@ -266,6 +266,6 @@ REDIS_PORT=9999 go test <your options>
 
 Thanks to all the people who already contributed!
 
-<a href="https://github.com/redis/go-redis/graphs/contributors">
+<a href="https://github.com/DovudR/go-redis/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=redis/go-redis" />
 </a>

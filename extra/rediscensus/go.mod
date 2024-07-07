@@ -1,14 +1,14 @@
-module github.com/redis/go-redis/extra/rediscensus/v9
+module github.com/DovudR/go-redis/extra/rediscensus/v9
 
 go 1.19
 
-replace github.com/redis/go-redis/v9 => ../..
+replace github.com/DovudR/go-redis/v9 => ../..
 
-replace github.com/redis/go-redis/extra/rediscmd/v9 => ../rediscmd
+replace github.com/DovudR/go-redis/extra/rediscmd/v9 => ../rediscmd
 
 require (
-	github.com/redis/go-redis/extra/rediscmd/v9 v9.5.3
-	github.com/redis/go-redis/v9 v9.5.3
+	github.com/DovudR/go-redis/extra/rediscmd/v9 v9.5.3
+	github.com/DovudR/go-redis/v9 v9.5.3
 	go.opencensus.io v0.24.0
 )
 
